@@ -39,7 +39,7 @@ You may use this outside the admin editor buttons
 
 e.g.
 
-<p class="epic">Your text here....</p>
+`<p class="epic">Your text here....</p>`
 
 
 == Installation ==
