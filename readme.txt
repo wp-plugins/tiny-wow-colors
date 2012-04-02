@@ -9,10 +9,12 @@ Add some buttons to tiny admin editor, buttons for item WoW (epic, poor, rare, .
 
 == Description ==
 
-Add some buttons to tiny admin editor (sup, sub, hr, html cleaner, fonts selector). Add buttons for colorisation item WoW (poor, normal, commun, rare, epic, legend, artefact) and Youtube buttons
+* Add some buttons to tiny admin editor (sup, sub, hr, html cleaner, fonts selector). 
+* Add buttons for colorisation item WoW (poor, normal, commun, rare, epic, legend, artefact)
+* add Youtube buttons
 
 
-Automatic generate some shortcodes for Youtube (version 2 and 3), automatic generates some shortcodes for colorisation items for Blizzard/wowhead/Magelo items. Enqueue option for one of this Tooltips (Magelo or wowhead).
+Automatic generate some shortcodes for Youtube (version 2 and 3), automatic generates some shortcodes for colorisation items for Blizzard/wowhead/Magelo items links. Enqueue option for one of this Tooltips (Magelo or wowhead).
 
 
 some class to use with html tag 
