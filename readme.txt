@@ -37,11 +37,18 @@ Some others
 * blizzquote
 
 
-You may use this outside the admin editor buttons 
+You may use this outside the admin editor buttons (with html tag - text colorization)
 
 e.g.
 
 `<p class="epic">Your text here....</p>`
+
+
+You may use this outside the admin editor (on a forum - manually shortcode)
+
+e.g.
+
+`[item name="Spiritwalker's Cuirass" url="http://www.wowhead.com/item=78724" class="epic"]`
 
 
 == Installation ==
