@@ -12,8 +12,10 @@ License: GPL
 //constants
 define("TINYWOW_DIR", WP_PLUGIN_URL . '/tinywowcolor/' );
 
+if(!is_admin()){
 //Enqueue style for class a + color
 wp_enqueue_style( 'wowcolor', TINYWOW_DIR . 'style.css' );
+}
 
 //Init button tinyMCE
 add_action('init','kw_button_action_admin_init');
