@@ -1,5 +1,5 @@
 === Tiny WoW colors ===
-Contributors: Laurent (KwarK) Bertrand
+Contributors: kwark
 Donate link: http://kwark.allwebtuts.net/
 Tags: warcraft, tiny, admin, editor, buttons, wow, colors, youtube, video, shortcode
 Tested up to: 3.3.1
@@ -16,8 +16,9 @@ Add some buttons to tiny admin editor, buttons for item WoW (epic, poor, rare, .
 
 Automatic generate some shortcodes for Youtube (version 2 and 3), automatic generates some shortcodes for colorisation items for Blizzard/wowhead/Magelo items links. Enqueue option for one of this Tooltips (Magelo or wowhead).
 
+You may changes at any times option wowhead <-> magelo and all your tip effect already published works fine without changes.
 
-some class to use with html tag 
+You may use all classes with html tag
 
 Color items
 
@@ -37,14 +38,14 @@ Some others
 * blizzquote
 
 
-You may use this outside the admin editor buttons (with html tag - text colorization)
+You may use all classes outside the admin editor buttons (with html tag - text colorization)
 
 e.g.
 
 `<p class="epic">Your text here....</p>`
 
 
-You may use this outside the admin editor (on a forum - manually shortcode)
+You may use this outside the admin editor (on a forum - manual shortcode)
 
 e.g.
 
