@@ -16,7 +16,7 @@ Add some buttons to tiny admin editor, buttons for item WoW (epic, poor, rare, .
 
 Automatic generate some shortcodes for Youtube (version 2 and 3), automatic generates some shortcodes for colorisation items for Blizzard/wowhead/Magelo items links. Enqueue option for one of this Tooltips (Magelo or wowhead).
 
-You may changes at any times option wowhead <-> magelo and all your tip effect already published works fine without changes.
+You may changes at any times option wowhead `<-->` magelo and all your tip-bubble effect already published works fine without changes.
 
 You may use all classes with html tag
 
