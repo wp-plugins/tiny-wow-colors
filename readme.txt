@@ -1,5 +1,6 @@
 === Tiny WoW colors ===
-Contributors: Laurent (KwarK) Bertrand
+
+Contributors: kwark
 Donate link: http://kwark.allwebtuts.net/
 Tags: warcraft, tiny, admin, editor, buttons, wow, colors, youtube, video, shortcode
 Tested up to: 3.3.1
