@@ -204,6 +204,28 @@ if(is_admin())
 }
 
 
+// Remove all settings on uninstall hook
+function tiny_page_delete_defaut_settings()
+{
+	global $wpdb;
+	
+	$settings = array(
+		'kwwidth',
+		'kwheight',
+		'kwenqueuebubble',
+		'kwsomebutton',
+		'kwcolorborder1',
+		'kwcolorborder2'
+	);
+
+	foreach ($settings as $v)
+	{
+		delete_option( ''.$v.'' );
+	}
+}
+register_uninstall_hook(__FILE__, 'tiny_page_delete_defaut_settings');
+
+
 //Admin page
 function kwtinywow()
 {
