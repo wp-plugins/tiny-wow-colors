@@ -47,7 +47,8 @@ if(!is_admin())
 //Init button tinyMCE
 add_action('init','kw_button_action_admin_init');
 
-function kw_button_action_admin_init() {
+function kw_button_action_admin_init()
+{
 	// only hook up these filters if we're in the admin panel, and the current user has permission to edit posts and pages
 	if ( current_user_can( 'edit_posts' ) && current_user_can( 'edit_pages' ) ) {
 		add_filter( 'mce_buttons', 'kw_filter_mce_button' );
@@ -190,7 +191,8 @@ add_action('admin_menu', 'kw_tinywow_menu');
 
 function kw_tinywow_menu()
 {
-	add_theme_page('Tiny WoW', 'Tiny WoW Youtube', 'manage_options', 'tinywowcolor', 'kwtinywow');
+	add_menu_page('Tiny WoW', 'Tiny WoW', 'manage_options', 'tinywowcolor', 'kwtinywow');
+	add_submenu_page('tinywowcolor.php', 'Tiny WoW', 'Tiny WoW', 'manage_options', 'tinywowcolor.php', 'kwtinywow');
 }
 
 
