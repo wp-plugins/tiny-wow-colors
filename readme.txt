@@ -3,8 +3,8 @@
 Contributors: KwarK
 Donate link: http://kwark.allwebtuts.net/
 Tags: warcraft, tiny, admin, editor, buttons, wow, colors, youtube, video, shortcode
-Tested up to: 3.3.2
-Stable tag: 1.0.2
+Tested up to: 3.4.1
+Stable tag: 1.0.3
 
 Add some buttons to tiny admin editor, buttons for item WoW (epic, poor, rare, ...) and Youtube buttons
 
@@ -74,6 +74,10 @@ View forum support on Wordpress for more information
 
 
 == Changelog ==
+
+= 1.0.3 =
+
+* replace echo by wp_enqueue_script for wowhead and magelo
 
 = 1.0.2 =
 
